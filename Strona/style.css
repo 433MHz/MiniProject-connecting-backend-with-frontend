@@ -1,0 +1,91 @@
+body
+{
+    background-color: rgb(36, 36, 36);
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#topBar
+{
+    background-color: rgb(53, 53, 53);
+    width: 100%;
+    height: 60px;
+    color: white;
+    font-size: 30px;
+}
+
+#topBar-inside
+{
+    width: 1200px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#topBar-inside-1button
+{
+    float: left;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#topBar-inside-3button
+{
+    float: right;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#topBar-inside-4button
+{
+    float: right;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#topBar-inside-1button:hover
+{
+    background-color: rgb(82, 82, 82);
+    border-bottom: white solid 2px;
+    height: 48px;
+    cursor: pointer;
+
+}
+
+#topBar-inside-3button:hover
+{
+    background-color: rgb(82, 82, 82);
+    border-bottom: white solid 2px;
+    height: 48px;
+    cursor: pointer;
+}
+
+#topBar-inside-4button:hover
+{
+    background-color: rgb(82, 82, 82);
+    border-bottom: white solid 2px;
+    height: 48px;
+    cursor: pointer;
+}
+
+#container
+{
+    width: 1200px;
+    height: 200px;
+    background-color: rgb(107, 107, 107);
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#topBar-inside-1button > a
+{
+    color: white;
+    text-decoration: none;
+}
