@@ -37,7 +37,8 @@ function sendData(){
         if(this.readyState == 4 && this.status == 200)
         {
             object = JSON.parse(this.responseText);
-            document.getElementById("container").innerHTML = object.firstName;
+            var text = "First name: " + object.firstName + " | Second name: " + object.lastName + " | age: " + object.age;
+            document.getElementById("container").innerHTML = text;
         }
     };
     xhttp.open("GET", "http://localhost:8080/RestApiPractising/webapi/student/get/2", true);
