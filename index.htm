@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="topBarLoginRegisterStyle.css">
     <script src="script.js"></script>
+    <script src="register.js"></script>
+    <script src="login.js"></script>
   </head>
 
   <body>
@@ -19,13 +21,15 @@
                   <input type="password" placeholder="Password" id="RegisterPasswordText">
                   <input type="password" placeholder="Repeat Password" id="RegisterPasswordRepeatText">
                   <input type="submit" value="Register" onclick="registerOperation()">
+                  <div id="registerMessage"></div>
               </div>
               </div>
               <div id="topBar-inside-3button">LogIn
                 <div id="topBar-inside-3button-showBoxLogin">
                     <input type="text" placeholder="Login" id="LoginLoginText">
                     <input type="password" placeholder="Password" id="LoginPasswordText">
-                    <input type="submit" value="LogIn" onclick="logInOperation();">
+                    <input type="submit" value="LogIn" onclick="logInOperation">
+                    <div id="loginMessage"></div>
                 </div>
               </div>
           </div>
