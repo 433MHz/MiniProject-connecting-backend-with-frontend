@@ -18,13 +18,13 @@ function registerOperation(){
 
 function addUser(user){
     var response;
-    var xmr = new XMLHttpRequest();
-    xmr.open("POST", "http://localhost:8080/addNewUser");
-    xmr.responseType = "json";
-    xmr.setRequestHeader('Content-Type', 'application/json');
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "http://localhost:8080/addNewUser");
+    xhr.responseType = "json";
+    xhr.setRequestHeader('Content-Type', 'application/json');
 
-    xmr.onload = function(){
-        response = xmr.response;
+    xhr.onload = function(){
+        response = xhr.response;
 
         document.getElementById("registerMessage").innerHTML = response.message;
         
@@ -36,5 +36,6 @@ function addUser(user){
     }
 
 
-    xmr.send(JSON.stringify(user));
+    xhr.send(JSON.stringify(user));
 }
+
