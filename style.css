@@ -38,6 +38,7 @@ body
     height: 50px;
     text-align: center;
     padding-top: 10px;
+    display: none;
 }
 
 #topBar-inside-4button

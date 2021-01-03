@@ -19,9 +19,10 @@
       <div id="container">
         <input type="text" id="logoText" placeholder="Title">
         <textarea name="Content" id="contentText" cols="30" rows="10" placeholder="Content"></textarea>
-        Select logo image for information:
-        <input type="file" id="imageSelect" title="Select information logo image">
-        <input type="submit" id="submitButton" value="Add information">
+        <div id="message"></div>
+        <input type="text" placeholder="Login" class="loginTexts" id="loginText"><br>
+        <input type="password" placeholder="Password" class="loginTexts" id="passwordText"><br>
+        <input type="submit" id="submitButton" value="Add information" onclick="addInformation()">
       </div>
   </body>
 </html>
