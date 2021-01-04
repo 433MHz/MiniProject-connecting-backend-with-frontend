@@ -38,6 +38,7 @@ body
     height: 50px;
     text-align: center;
     padding-top: 10px;
+    display: none;
 }
 
 #topBar-inside-4button
@@ -74,18 +75,10 @@ body
     cursor: pointer;
 }
 
-#container
-{
-    width: 1200px;
-    height: 200px;
-    background-color: rgb(107, 107, 107);
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 #topBar-inside-1button > a
 {
     color: white;
     text-decoration: none;
 }
+
