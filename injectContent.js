@@ -27,8 +27,8 @@ function inject(informations){
         html = html + "</div>";
         html = html + "<div class='container-right'>";
         html = html + "Added by: "+ info.login +"<br>";
-        html = html + "Date: "+ info.date +"<br>";
-        html = html + "Hour: " + info.hour + "<br>";
+        html = html + "At date: "+ info.date +"<br>";
+        html = html + "At time: " + info.hour + "<br>";
         html = html + "</div>";
         html = html + "</div>";
         html2 = html2 + html;
