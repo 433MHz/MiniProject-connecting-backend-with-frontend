@@ -19,7 +19,7 @@ function registerOperation(){
 function addUser(user){
     var response;
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://localhost:8080/addNewUser");
+    xhr.open("POST", "http://192.168.0.100:8080/addNewUser");
     xhr.responseType = "json";
     xhr.setRequestHeader('Content-Type', 'application/json');
 

@@ -18,7 +18,7 @@ function addInformation(){
 function sendInfo(information){
     var response;
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://localhost:8080/sendInformation");
+    xhr.open("POST", "http://192.168.0.100:8080/sendInformation");
     xhr.responseType = "json";
     xhr.setRequestHeader('Content-Type', 'application/json');
 

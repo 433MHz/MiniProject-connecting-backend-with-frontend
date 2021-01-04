@@ -1,7 +1,7 @@
 function getInfo(){
     var response;
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "http://localhost:8080/getInformations");
+    xhr.open("GET", "http://192.168.0.100:8080/getInformations");
     xhr.responseType = "json";
 
     xhr.onload = function(){
